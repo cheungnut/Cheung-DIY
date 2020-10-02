@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - 'config/r3g-hellolienol.config'
+      - 'config/hellolienol.config'
   schedule:
     - cron: 0 4 * * 5
 #  watch:
@@ -28,7 +28,7 @@ env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/r3g-hellolienol.config
+  CONFIG_FILE: config/hellolienol.config
   DIY_P1_SH: scripts/diy-part1.sh
   DIY_P2_SH: scripts/diy-part2.sh
   SSH_ACTIONS: false
